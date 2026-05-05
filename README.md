@@ -20,4 +20,6 @@ git -C "$env:USERPROFILE\.codex\skills" pull --ff-only
 git -C "$env:USERPROFILE\.codex\skills" submodule update --init --recursive
 ```
 
+This registry currently tracks 29 public skill repositories as submodules.
+
 To advance a skill, update the skill repository first, then commit the submodule pointer in this repository.

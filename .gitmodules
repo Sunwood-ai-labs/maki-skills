@@ -23,6 +23,11 @@
 	url = https://github.com/Sunwood-ai-labs/draw-io-skill.git
 	branch = codex/add-onizuka-example-links
 	ignore = dirty
+[submodule "frontend-design"]
+	path = frontend-design
+	url = https://github.com/Sunwood-ai-labs/frontend-design-skill.git
+	branch = main
+	ignore = dirty
 [submodule "gas-slack-bot"]
 	path = gas-slack-bot
 	url = https://github.com/Sunwood-ai-labs/gas-slack-bot-skill.git
@@ -43,6 +48,31 @@
 	url = https://github.com/onizuka-agi-co/github-project-skill.git
 	branch = main
 	ignore = dirty
+[submodule "gsap"]
+	path = gsap
+	url = https://github.com/Sunwood-ai-labs/gsap-skill.git
+	branch = main
+	ignore = dirty
+[submodule "hyperframes"]
+	path = hyperframes
+	url = https://github.com/Sunwood-ai-labs/hyperframes-skill.git
+	branch = main
+	ignore = dirty
+[submodule "hyperframes-cli"]
+	path = hyperframes-cli
+	url = https://github.com/Sunwood-ai-labs/hyperframes-cli-skill.git
+	branch = main
+	ignore = dirty
+[submodule "hyperframes-registry"]
+	path = hyperframes-registry
+	url = https://github.com/Sunwood-ai-labs/hyperframes-registry-skill.git
+	branch = main
+	ignore = dirty
+[submodule "jupytext-skill"]
+	path = jupytext-skill
+	url = https://github.com/Sunwood-ai-labs/jupytext-skill.git
+	branch = main
+	ignore = dirty
 [submodule "logged-in-google-chrome"]
 	path = logged-in-google-chrome
 	url = https://github.com/Sunwood-ai-labs/logged-in-google-chrome-skill.git
@@ -57,6 +87,21 @@
 	path = midnight-memory
 	url = https://github.com/Sunwood-ai-labs/midnight-memory.git
 	branch = codex/root-skill-entrypoint
+	ignore = dirty
+[submodule "playwright-interactive"]
+	path = playwright-interactive
+	url = https://github.com/Sunwood-ai-labs/playwright-interactive-skill.git
+	branch = main
+	ignore = dirty
+[submodule "remotion"]
+	path = remotion
+	url = https://github.com/Sunwood-ai-labs/remotion-skill.git
+	branch = main
+	ignore = dirty
+[submodule "render-svg-layouts"]
+	path = render-svg-layouts
+	url = https://github.com/Sunwood-ai-labs/render-svg-layouts-skill.git
+	branch = main
 	ignore = dirty
 [submodule "repository-polish"]
 	path = repository-polish
@@ -73,8 +118,28 @@
 	url = https://github.com/Sunwood-ai-labs/SourceSage.git
 	branch = main
 	ignore = dirty
+[submodule "svg-header-layout-checker"]
+	path = svg-header-layout-checker
+	url = https://github.com/Sunwood-ai-labs/svg-header-layout-checker-skill.git
+	branch = main
+	ignore = dirty
+[submodule "svg-header-layout-lint"]
+	path = svg-header-layout-lint
+	url = https://github.com/Sunwood-ai-labs/svg-header-layout-lint.git
+	branch = main
+	ignore = dirty
 [submodule "timberborn-modding"]
 	path = timberborn-modding
 	url = https://github.com/Sunwood-ai-labs/timberborn-modding-skill.git
+	branch = main
+	ignore = dirty
+[submodule "topview-skill"]
+	path = topview-skill
+	url = https://github.com/Sunwood-ai-labs/topview-skill.git
+	branch = main
+	ignore = dirty
+[submodule "website-to-hyperframes"]
+	path = website-to-hyperframes
+	url = https://github.com/Sunwood-ai-labs/website-to-hyperframes-skill.git
 	branch = main
 	ignore = dirty
