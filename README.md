@@ -1,6 +1,12 @@
 # maki-skills
 
-Public Codex skill registry for Maki.
+Public Codex skill submodule registry for Maki.
+
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-2f6fef)](https://sunwood-ai-labs.github.io/maki-skills/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Submodules](https://img.shields.io/badge/public%20skills-29-blue)](.gitmodules)
+
+[日本語](README.ja.md) | [Documentation](https://sunwood-ai-labs.github.io/maki-skills/)
 
 This repository is a submodule holder for public skills under `%USERPROFILE%\.codex\skills`.
 It intentionally does not track local runtime folders, bundled skills, private skills, or
@@ -8,21 +14,21 @@ skills without a public GitHub origin.
 
 This registry currently tracks 29 public skill repositories as submodules.
 
-## Setup
+## 🚀 Quick Start
 
 ```powershell
 git clone --recurse-submodules https://github.com/Sunwood-ai-labs/maki-skills.git "$env:USERPROFILE\.codex\skills"
 git -C "$env:USERPROFILE\.codex\skills" submodule update --init --recursive
 ```
 
-## Update
+## 🔄 Update
 
 ```powershell
 git -C "$env:USERPROFILE\.codex\skills" pull --ff-only
 git -C "$env:USERPROFILE\.codex\skills" submodule update --init --recursive
 ```
 
-## Skills
+## 🧩 Skill Catalog
 
 | Skill | Repository |
 | --- | --- |
@@ -56,4 +62,65 @@ git -C "$env:USERPROFILE\.codex\skills" submodule update --init --recursive
 | `topview-skill` | `Sunwood-ai-labs/topview-skill` |
 | `website-to-hyperframes` | `Sunwood-ai-labs/website-to-hyperframes-skill` |
 
-To advance a skill, update the skill repository first, then commit the submodule pointer in this repository.
+## 🛠️ Maintaining the Registry
+
+To advance a skill, update that skill repository first, then commit only the changed
+submodule pointer in this repository.
+
+```powershell
+git -C "$env:USERPROFILE\.codex\skills\<skill-name>" pull --ff-only
+git -C "$env:USERPROFILE\.codex\skills" status --short
+git -C "$env:USERPROFILE\.codex\skills" add <skill-name>
+git -C "$env:USERPROFILE\.codex\skills" commit -m "🔧 Update <skill-name> submodule"
+```
+
+Before committing, confirm that `.gitignore` is still protecting local-only skills and
+runtime directories. The parent repository should normally commit `.gitmodules`, README
+and docs files, workflows, license metadata, or intentional submodule pointer updates.
+
+## 🩺 Troubleshooting
+
+If a skill directory is missing after clone, initialize submodules again.
+
+```powershell
+git -C "$env:USERPROFILE\.codex\skills" submodule update --init --recursive
+```
+
+If `git status --short` shows `M <skill-name>`, the local submodule checkout differs from
+the pointer recorded by the parent repository. Commit that pointer only when the skill
+advance is intentional; otherwise leave it out of unrelated registry commits.
+
+Some entries in `.gitmodules` track non-`main` branches because the public skill source
+currently lives there. Treat those branch pins as registry metadata and change them only
+with the corresponding skill update.
+
+## 📚 Documentation
+
+The browsable documentation lives in `docs/` and is built with VitePress.
+
+```powershell
+Set-Location "$env:USERPROFILE\.codex\skills\docs"
+npm install
+npm run docs:build
+```
+
+GitHub Pages is deployed from `.github/workflows/deploy-docs.yml` after changes land on
+`main`.
+
+## 🧭 Repository Layout
+
+```text
+.
+├─ .github/workflows/        # GitHub Pages deployment
+├─ docs/                     # VitePress documentation
+├─ <skill-name>/             # Public skill submodules
+├─ .gitmodules               # Source repositories and tracked branches
+├─ .gitignore                # Local runtime/private skill guardrails
+├─ README.md                 # English overview
+└─ README.ja.md              # Japanese overview
+```
+
+## 📄 License
+
+This registry is released under the [MIT License](LICENSE). Individual skill
+submodules retain the licenses declared in their own repositories.

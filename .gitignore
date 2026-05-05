@@ -6,6 +6,15 @@
 !/.gitignore
 !/.gitmodules
 !/README.md
+!/README.ja.md
+!/LICENSE
+!/.github/
+!/docs/
+
+# Generated dependency/build output inside public docs.
+**/node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 
 # Public skill submodules only.
 !/android-termux-ssh-bootstrap/

@@ -1,0 +1,12 @@
+{
+  "name": "maki-skills-docs",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress --host 127.0.0.1",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
