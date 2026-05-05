@@ -1,0 +1,80 @@
+[submodule "android-termux-ssh-bootstrap"]
+	path = android-termux-ssh-bootstrap
+	url = https://github.com/Sunwood-ai-labs/android-termux-ssh-bootstrap-skill.git
+	branch = main
+	ignore = dirty
+[submodule "cc-orchestrator-cli-skill"]
+	path = cc-orchestrator-cli-skill
+	url = https://github.com/Sunwood-ai-labs/cc-orchestrator-cli-skill.git
+	branch = main
+	ignore = dirty
+[submodule "codex-spark-eclipse-legion"]
+	path = codex-spark-eclipse-legion
+	url = https://github.com/Sunwood-ai-labs/codex-spark-eclipse-legion.git
+	branch = codex/readable-fullname-aliases
+	ignore = dirty
+[submodule "comfyui-workflow-node-dev"]
+	path = comfyui-workflow-node-dev
+	url = https://github.com/Sunwood-ai-labs/comfyui-workflow-node-dev.git
+	branch = main
+	ignore = dirty
+[submodule "draw-io"]
+	path = draw-io
+	url = https://github.com/Sunwood-ai-labs/draw-io-skill.git
+	branch = codex/add-onizuka-example-links
+	ignore = dirty
+[submodule "gas-slack-bot"]
+	path = gas-slack-bot
+	url = https://github.com/Sunwood-ai-labs/gas-slack-bot-skill.git
+	branch = main
+	ignore = dirty
+[submodule "gh-release-notes"]
+	path = gh-release-notes
+	url = https://github.com/Sunwood-ai-labs/gh-release-notes-skill.git
+	branch = main
+	ignore = dirty
+[submodule "git-flow-skill"]
+	path = git-flow-skill
+	url = https://github.com/Sunwood-ai-labs/git-flow-skill.git
+	branch = develop
+	ignore = dirty
+[submodule "github-project"]
+	path = github-project
+	url = https://github.com/onizuka-agi-co/github-project-skill.git
+	branch = main
+	ignore = dirty
+[submodule "logged-in-google-chrome"]
+	path = logged-in-google-chrome
+	url = https://github.com/Sunwood-ai-labs/logged-in-google-chrome-skill.git
+	branch = main
+	ignore = dirty
+[submodule "m5stack-arduino-cli"]
+	path = m5stack-arduino-cli
+	url = https://github.com/Sunwood-ai-labs/m5stack-arduino-cli-skill.git
+	branch = main
+	ignore = dirty
+[submodule "midnight-memory"]
+	path = midnight-memory
+	url = https://github.com/Sunwood-ai-labs/midnight-memory.git
+	branch = codex/root-skill-entrypoint
+	ignore = dirty
+[submodule "repository-polish"]
+	path = repository-polish
+	url = https://github.com/Sunwood-ai-labs/repository-polish-skill.git
+	branch = main
+	ignore = dirty
+[submodule "skill-setup"]
+	path = skill-setup
+	url = https://github.com/Sunwood-ai-labs/skill-setup-skill.git
+	branch = main
+	ignore = dirty
+[submodule "sourcesage-cli"]
+	path = sourcesage-cli
+	url = https://github.com/Sunwood-ai-labs/SourceSage.git
+	branch = main
+	ignore = dirty
+[submodule "timberborn-modding"]
+	path = timberborn-modding
+	url = https://github.com/Sunwood-ai-labs/timberborn-modding-skill.git
+	branch = main
+	ignore = dirty

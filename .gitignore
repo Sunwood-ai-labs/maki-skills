@@ -1,0 +1,26 @@
+# Ignore everything by default. This repository is a public submodule holder,
+# not a dump of the local Codex runtime or private skills.
+/*
+
+# Repository metadata and docs.
+!/.gitignore
+!/.gitmodules
+!/README.md
+
+# Public skill submodules only.
+!/android-termux-ssh-bootstrap/
+!/cc-orchestrator-cli-skill/
+!/codex-spark-eclipse-legion/
+!/comfyui-workflow-node-dev/
+!/draw-io/
+!/gas-slack-bot/
+!/gh-release-notes/
+!/git-flow-skill/
+!/github-project/
+!/logged-in-google-chrome/
+!/m5stack-arduino-cli/
+!/midnight-memory/
+!/repository-polish/
+!/skill-setup/
+!/sourcesage-cli/
+!/timberborn-modding/
