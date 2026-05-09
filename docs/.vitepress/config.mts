@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress'
 
+const siteUrl = 'https://sunwood-ai-labs.github.io/maki-skills/'
+const siteDescription = 'Public Codex skill submodule registry for Maki.'
+const socialImage = `${siteUrl}maki-skills-header.svg`
+
 const englishSidebar = [
   {
     text: 'Guide',
@@ -28,7 +32,18 @@ export default defineConfig({
   base: '/maki-skills/',
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: '/maki-skills/logo.svg', type: 'image/svg+xml' }]
+    ['link', { rel: 'icon', href: '/maki-skills/logo.svg', type: 'image/svg+xml' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'maki-skills' }],
+    ['meta', { property: 'og:description', content: siteDescription }],
+    ['meta', { property: 'og:url', content: siteUrl }],
+    ['meta', { property: 'og:image', content: socialImage }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'maki-skills' }],
+    ['meta', { name: 'twitter:description', content: siteDescription }],
+    ['meta', { name: 'twitter:image', content: socialImage }]
   ],
   themeConfig: {
     logo: '/logo.svg',

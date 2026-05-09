@@ -1,14 +1,21 @@
 <div align="center">
 
+<img src="docs/public/maki-skills-header.svg" alt="maki-skills: Maki 向けの公開 Codex skill registry" width="960">
+
 # maki-skills
 
 Maki 向けの公開 Codex skill submodule registry です。
 
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-2f6fef)](https://sunwood-ai-labs.github.io/maki-skills/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Submodules](https://img.shields.io/badge/public%20skills-29-blue)](.gitmodules)
+<p>
+  <a href="https://sunwood-ai-labs.github.io/maki-skills/"><img alt="Docs" src="https://img.shields.io/badge/docs-GitHub%20Pages-2f6fef"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+  <a href=".gitmodules"><img alt="Public skills: 29" src="https://img.shields.io/badge/public%20skills-29-blue"></a>
+</p>
 
-[English](README.md) | [Documentation](https://sunwood-ai-labs.github.io/maki-skills/)
+<p>
+  <a href="README.md">English</a> ·
+  <a href="https://sunwood-ai-labs.github.io/maki-skills/">ドキュメント</a>
+</p>
 
 </div>
 

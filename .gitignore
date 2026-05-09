@@ -3,6 +3,8 @@
 /*
 
 # Repository metadata and docs.
+!/.editorconfig
+!/.gitattributes
 !/.gitignore
 !/.gitmodules
 !/README.md

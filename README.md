@@ -1,12 +1,23 @@
+<div align="center">
+
+<img src="docs/public/maki-skills-header.svg" alt="maki-skills: Public Codex skill registry for Maki" width="960">
+
 # maki-skills
 
 Public Codex skill submodule registry for Maki.
 
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-2f6fef)](https://sunwood-ai-labs.github.io/maki-skills/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Submodules](https://img.shields.io/badge/public%20skills-29-blue)](.gitmodules)
+<p>
+  <a href="https://sunwood-ai-labs.github.io/maki-skills/"><img alt="Docs" src="https://img.shields.io/badge/docs-GitHub%20Pages-2f6fef"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+  <a href=".gitmodules"><img alt="Public skills: 29" src="https://img.shields.io/badge/public%20skills-29-blue"></a>
+</p>
 
-[日本語](README.ja.md) | [Documentation](https://sunwood-ai-labs.github.io/maki-skills/)
+<p>
+  <a href="README.ja.md">日本語</a> ·
+  <a href="https://sunwood-ai-labs.github.io/maki-skills/">Documentation</a>
+</p>
+
+</div>
 
 This repository is a submodule holder for public skills under `%USERPROFILE%\.codex\skills`.
 It intentionally does not track local runtime folders, bundled skills, private skills, or
